@@ -1,0 +1,23 @@
+
+
+<div class="container">
+
+    <h1>Posts Dashboard</h1>
+
+    <form action="/posts/create" method="get">
+        <div class="mb-3">
+            <label for="title" class="form-label">Título</label>
+            <input type="title" class="form-control" name="title">
+        </div>
+        <div class="mb-3">
+            <label for="image_url" class="form-label">Imagen</label>
+            <input type="text" class="form-control" name="image_url">
+        </div>
+        <div class="mb-3">
+            <label for="content" class="form-label">Contenido</label>
+            <textarea class="form-control" name="content"></textarea>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
